@@ -29,3 +29,6 @@
 
 <h2>试图还原某些专家做了什么</h2>
 <a href="conversion.sql">点这里看一看</a>
+
+
+ <a href="suicide_reason.md"><h2>我（们）早该死了</h2></a>
