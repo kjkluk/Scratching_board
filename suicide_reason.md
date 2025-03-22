@@ -14,3 +14,4 @@
 5. <a href="https://apologeticspress.org/圣经对变性怎么说？/">上帝都看不下去了</a>
 6. 整个都是臆想出来的 参考<a href="https://www.zhihu.com/question/360094581/answer/1157758818?utm_id=0">这个</a>
 
+7. <a href="https://x.com/kjkluk/status/1903084070990647682?t=">废物的又一例证 需要x账号 以查看</a> 给没有帐号的说一下 大概就是工作能力不足和底层阶级的问题，穷B似乎被认为不配🏳️‍⚧️
