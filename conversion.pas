@@ -2,13 +2,18 @@ PROGRAM conversion;
 CONST
  SRYpositive = true;
 VAR
- GenderCognitionIsMale, GenderIsMale boolean;
- LifeTimeCount int;
+ GenderCognitionIsMale, GenderIsMale: boolean;
+ LifeTimeCount: integer;
+
+PROCEDURE ECT;
+BEGIN
+END;
+
 BEGIN
  GenderIsMale := SRYpositive;
  REPEAT
-  ECT();
-  LifeTime:=LifeTime+1;
+  ECT;
+  LifeTimeCount := LifeTimeCount + 1;
  UNTIL GenderCognitionIsMale;
 END.
 {#自分嫌恶 #苦情を述べる}
