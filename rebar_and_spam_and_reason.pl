@@ -2,7 +2,8 @@
 
 #!/usr/bin/perl
 use strict;
-use warnings;
+use warnings FATAL => 'all';
+use autodie;
 use constant THEY => "unmodifiable";
 my $reason_known = 0;
 unless ( $reason_known == 1 ) {
