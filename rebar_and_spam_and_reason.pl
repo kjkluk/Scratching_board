@@ -22,3 +22,19 @@ else{
 my @hard_working_people = qw/aunt1 aunt2 aunt3 aunt4 uncle1 uncle2 mother/;
 my $count_daoshi_item = 1;
 my $count_unknown_species =1;
+
+
+sub finish {
+    my ( $self, $thing, $other ) = @_;
+
+    die qq("$thing" remains unfinished: $self cannot do it by itself.\n)
+        if defined $self && !defined $other;
+
+    return 1;
+}
+
+my $self  = 'monster';
+my $thing = 'thing';
+my $other = undef;
+
+finish( $self, $thing, $other );
