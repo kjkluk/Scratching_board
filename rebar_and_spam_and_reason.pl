@@ -34,10 +34,18 @@ my $malevermin_photo_bias = 1;
 my $opposite_beast    = 1;
 my $result_known      = 0;
 my $control_lost      = 1;
-my $eat_grass         = 1;
 my $fork_like_family  = 1;
 
-my @hard_working_people = qw/aunt1 aunt2 aunt3 aunt4 uncle1 uncle2 mother/;
+my $date_known = 0;
+my $month      = 'April';
+my $weekday    = 'Sunday';
+
+my @everyone = qw/aunt1 aunt2 aunt3 aunt4 uncle1 uncle2 mother/;
+
+if ( $date_known == 0 and $month eq 'April' and $weekday eq 'Sunday' ) {
+    my $everyone_eats_grass = scalar @everyone;
+    print "everyone eats grass.\n";
+}
 
 my $count_daoshi_item    = 1;
 my $count_unknown_species = 1;
