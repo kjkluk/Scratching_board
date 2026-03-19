@@ -36,7 +36,6 @@ my $result_known      = 0;
 my $control_lost      = 1;
 my $eat_grass         = 1;
 my $fork_like_family  = 1;
-my $china_grass       = 1;
 
 my @hard_working_people = qw/aunt1 aunt2 aunt3 aunt4 uncle1 uncle2 mother/;
 
